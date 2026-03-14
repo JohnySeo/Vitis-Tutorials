@@ -6,9 +6,13 @@
 # =======================================================
 # Set Platform ,Vitis and Versal Image repo
 # =======================================================
-export PLATFORM_REPO_PATHS= <YOUR-2025.2-PLATFORM-DIRECTORY>
-export XILINX_VITIS = <YOUR-2025.2-VITIS-DIRECTORY>/2025.2
-export COMMON_IMAGE_VERSAL=<YOUR-XILINX-VERSAL-common-v2025.2-DIRECTORY>
+#export PLATFORM_REPO_PATHS= <YOUR-2025.2-PLATFORM-DIRECTORY>
+#export XILINX_VITIS = <YOUR-2025.2-VITIS-DIRECTORY>/2025.2
+#export COMMON_IMAGE_VERSAL=<YOUR-XILINX-VERSAL-common-v2025.2-DIRECTORY>
+# 260314_각 경로 세부 수정
+export PLATFORM_REPO_PATHS=/tools/Xilinx/2025.2/Vitis/base_platforms
+export XILINX_VITIS=/tools/Xilinx/2025.2/Vitis
+export COMMON_IMAGE_VERSAL=/opt/xilinx-versal-common-v2025.2
 
 # ====================================================
 # Source Versal Image ,Vitis and Aietools
